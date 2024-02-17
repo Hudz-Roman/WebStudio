@@ -38,9 +38,9 @@
                 >Portfolio</a
               >
             </li>
-            <li class="main-nav item">
+            <!-- <li class="main-nav item">
               <a class="main-nav link choose-link" href="">Contacts</a>
-            </li>
+            </li> -->
           </ul>
         </nav>
         <address class="address">
@@ -75,25 +75,39 @@
           <h1 class="hidden-text">Portfolio of WebStudio</h1>
           <ul class="portfolio-filter list">
             <li class="btn-filter-item">
-              <button type="button" class="button-filter">All</button>
+              <button type="button" class="button-filter" data-filter="all">
+                All
+              </button>
             </li>
             <li class="btn-filter-item">
-              <button type="button" class="button-filter">Web Site</button>
+              <button type="button" class="button-filter" data-filter="web">
+                Web Site
+              </button>
             </li>
             <li class="btn-filter-item">
-              <button type="button" class="button-filter">App</button>
+              <button type="button" class="button-filter" data-filter="app">
+                App
+              </button>
             </li>
             <li class="btn-filter-item">
-              <button type="button" class="button-filter">Design</button>
+              <button type="button" class="button-filter" data-filter="design">
+                Design
+              </button>
             </li>
             <li class="btn-filter-item">
-              <button type="button" class="button-filter">Marketing</button>
+              <button
+                type="button"
+                class="button-filter"
+                data-filter="marketing"
+              >
+                Marketing
+              </button>
             </li>
           </ul>
           <!-- Portfolio section -->
           <ul class="portfolio list">
             <!-- 1 item -->
-            <li class="list-item">
+            <li class="list-item app">
               <a class="img link" href="">
                 <div class="portfolio-card-img-wrapper">
                   <img
@@ -120,7 +134,7 @@
               >
             </li>
             <!-- 2 item -->
-            <li class="list-item">
+            <li class="list-item marketing">
               <a class="img link" href="">
                 <div class="portfolio-card-img-wrapper">
                   <img
@@ -147,7 +161,7 @@
               >
             </li>
             <!-- 3 item -->
-            <li class="list-item">
+            <li class="list-item app">
               <a class="img link" href="">
                 <div class="portfolio-card-img-wrapper">
                   <img
@@ -172,7 +186,7 @@
               >
             </li>
             <!-- 4 item -->
-            <li class="list-item">
+            <li class="list-item marketing">
               <a class="img link" href="">
                 <div class="portfolio-card-img-wrapper">
                   <img
@@ -197,7 +211,7 @@
               >
             </li>
             <!-- 5 item -->
-            <li class="list-item">
+            <li class="list-item design">
               <a class="img link" href="">
                 <div class="portfolio-card-img-wrapper">
                   <img
@@ -224,7 +238,7 @@
               >
             </li>
             <!-- 6 item -->
-            <li class="list-item">
+            <li class="list-item marketing">
               <a class="img link" href="">
                 <div class="portfolio-card-img-wrapper">
                   <img
@@ -249,7 +263,7 @@
               >
             </li>
             <!-- 7 item -->
-            <li class="list-item">
+            <li class="list-item design">
               <a class="img link" href="">
                 <div class="portfolio-card-img-wrapper">
                   <img
@@ -276,7 +290,7 @@
               >
             </li>
             <!-- 8 item -->
-            <li class="list-item">
+            <li class="list-item web">
               <a class="img link" href="">
                 <div class="portfolio-card-img-wrapper">
                   <img
@@ -301,7 +315,7 @@
               >
             </li>
             <!-- 9 item -->
-            <li class="list-item">
+            <li class="list-item web">
               <a class="img link" href="">
                 <div class="portfolio-card-img-wrapper">
                   <img
@@ -474,5 +488,6 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="js/mobile-menu.js"></script>
+    <script src="./js/filter.js"></script>
   </body>
 </html>
